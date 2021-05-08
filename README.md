@@ -4,6 +4,4 @@
   - Microsoft.AspNetCore.Authentication
   - Microsoft.AspNetCore.Authentication.JwtBearer
 
-## Add in the project
-  - Startup / ConfigureServices
-  - Startup / Configure
+## Cache Storage with Redis in Docker
