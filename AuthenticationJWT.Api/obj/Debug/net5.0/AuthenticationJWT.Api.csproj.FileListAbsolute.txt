@@ -29,3 +29,8 @@ C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\obj\Debu
 C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\obj\Debug\net5.0\ref\AuthenticationJWT.Api.dll
 C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\obj\Debug\net5.0\AuthenticationJWT.Api.pdb
 C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\obj\Debug\net5.0\AuthenticationJWT.Api.genruntimeconfig.cache
+C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\bin\Debug\net5.0\ServiceStack.Common.dll
+C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\bin\Debug\net5.0\ServiceStack.Interfaces.dll
+C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\bin\Debug\net5.0\ServiceStack.Redis.dll
+C:\Users\Luiz Sena\source\repos\AuthenticationJWT\AuthenticationJWT.Api\bin\Debug\net5.0\ServiceStack.Text.dll

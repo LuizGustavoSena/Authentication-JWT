@@ -31,6 +31,8 @@ namespace AuthenticationJWT.Api.Controllers
                 Token = TokenService.GerateToken(user)
             };
 
+            redisService.SetRedis(userView);
+
             return Ok(userView);
         }
 
@@ -56,6 +58,15 @@ namespace AuthenticationJWT.Api.Controllers
         public ActionResult Manager()
         {
             return Ok(string.Format("Autenticado Manager {0}", User.Identity.Name));
+        }
+
+        [HttpGet]
+        [Route("user")]
+        public ActionResult UserToken()
+        {
+            var token = Request.Headers["Authorization"];
+            string tokenS = token.ToString().Replace("Bearer ", "");
+            return Ok(redisService.GetRedis(tokenS));
         }
     }
 }
