@@ -7,5 +7,5 @@
 ## Cache Storage with Redis in Docker
 
 ## Command Open redisCli from Docker
-  - docker exec -it [nameContainer] -sh
+  - docker exec -it [nameContainer] sh
   - redis-cli
